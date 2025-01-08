@@ -68,4 +68,4 @@ Fit the model on the training data to learn th coefficients.
 Evaluate using matrics like:
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
-- R-squared (R^2)
+- R-squared (R^{2})
