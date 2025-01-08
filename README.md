@@ -41,15 +41,9 @@ $y = \beta_0 + \sum_{i=1}^{n} \beta_i x_i + \epsilon$
 
 #### 1.3.2. Build the Model
 
-## Linear Regression: Cost Function
+Linear regression uses methods like Ordinary Least Squares (OLS) to minimize the cost function:
 
-Linear regression aims to find the best-fitting line (or hyperplane in higher dimensions) that minimizes the difference between the predicted values and the actual values of the target variable. 
-
-**Cost Function**
-
-A common cost function used in linear regression is the **Mean Squared Error (MSE)**, also known as the **Ordinary Least Squares (OLS)** cost function. It is defined as:
-
-<span class="math-inline">J\(\\beta\) \= \\frac\{1\}\{2m\} \\sum\_\{i\=1\}^\{m\} \\left\( \\hat\{y\}\_i \- y\_i \\right\)^2</span>
+$J(\beta) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}_i - y_i \right)^2$
 
 **Where:**
 
