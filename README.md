@@ -61,9 +61,11 @@ The goal of linear regression is to find the values of the model's parameters (Î
 * The OLS cost function penalizes large errors more severely than small errors due to the squaring of the differences.
 * Minimizing the MSE leads to the line that best fits the data in a least-squares sense.
 
-This Markdown code effectively presents the cost function used in linear regression, including:
+### 1.3.3. Train the Model
+Fit the model on the training data to learn th coefficients.
 
-* **Clear and concise explanation:** It explains the purpose of the cost function and its role in linear regression.
-* **Mathematical representation:** The equation is correctly formatted using LaTeX syntax within the Markdown.
-* **Definitions of terms:** All variables in the equation are clearly defined.
-* **Key points:** It highlights the significance of the OLS cost function and its implications for model fitting.
+### 1.3.4. Evaluate the Model
+Evaluate using matrics like:
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R^2)
