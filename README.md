@@ -1,7 +1,8 @@
 # Math_For_ML
 Math for Machine Learning
 
-## Linear Regression
+## 1. Linear Regression
+### 1.1. What is Linear Regression
 Linear regression attempts to model the relationship between:
 
 Independent variables (features) (𝑋) and
@@ -22,3 +23,12 @@ $y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \epsilon$
 * **ϵ:** Error term (represents the difference between the predicted value of y and the actual value)
 
 This equation represents a linear relationship between the target variable and the input features. The goal of linear regression is to find the values of the coefficients (β0, β1, ..., βn) that best fit the data and minimize the error term.
+
+### 1.2. Type of Linear Regression
+#### 1.2.1. Simple Linear Regression
+One feature:  
+$y = \beta_0 + \beta_1x_1 + \epsilon$
+
+#### 1.2.2. Multiple Linear Regression
+Multiple features:  
+$y = \beta_0 + \sum_{i=1}^{n} \beta_i x_i + \epsilon$
