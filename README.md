@@ -83,14 +83,15 @@ See the Code in the file scikit-learn.py. Test with a dataset called scikit-lear
 
 #### 1.3.5.3 Explain Result
 ##### 1.3.5.3.1. Mean Squared Error (MSE)
-MSE measures the average squared difference between the predicted values ($\hat{y}$) and the actual values (y)
+MSE measures the average squared difference between the predicted values ($\hat{y}$) and the actual values (y)  
+
 $MSE = \frac{1}{n} \sum_{i=1}^{n} \left( \hat{y}_i - y_i \right)^2$
 
 **Where:**
 
-* **n:** The Number of data points.
-* **ŷ<sub>i</sub>:** The predicted value for the i-th sample.
-* **y<sub>i</sub>:** The actual value for the i-th sample.
+* **n** The Number of data points.
+* **ŷ<sub>i</sub>** The predicted value for the i-th sample.
+* **y<sub>i</sub>** The actual value for the i-th sample.
 
 ##### 1.3.5.3.2. What It Means
 - **Smaller MSE** indicates that the predictions are close to the actual values, which means the model is performing better.
@@ -98,7 +99,7 @@ $MSE = \frac{1}{n} \sum_{i=1}^{n} \left( \hat{y}_i - y_i \right)^2$
 
 ##### 1.3.5.3.3. Interpretation
 - Units: MSE is in the squre of the target variable's unit. For example, if the target is the house prices in dollars, MSE will be in $(dollars)^{2}$
-- A perfect model would have MSE =  meaning to no difference between predications and actual values.
+- A perfect model would have MSE = 0, meaning to no difference between predications and actual values.
 
 
 
