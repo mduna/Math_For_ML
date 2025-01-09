@@ -101,6 +101,34 @@ $MSE = \frac{1}{n} \sum_{i=1}^{n} \left( \hat{y}_i - y_i \right)^2$
 - Units: MSE is in the squre of the target variable's unit. For example, if the target is the house prices in dollars, MSE will be in $(dollars)^{2}$
 - A perfect model would have MSE = 0, meaning to no difference between predications and actual values.
 
+##### 1.3.5.3.2. R-squared ($R^{2}$)
+R-squared R² (Coefficient of Determination) explains how much of the variability in the target variable (y) is explained by the features (X) in the model.
+
+**Formula**
+
+R²=1−Sum of Squared Residuals (SSR)Total Sum of Squares (TSS)R^2 = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squares (TSS)}}
+
+**Where:**
+
+* **SSR (Sum of Squared Residuals):** 
+    * Residuals (unexplained variance by the model).
+    * SSR=∑i=1n(yi−y^i)2SSR = \sum_{i=1}^n (y_i - \hat{y}_i)^2
+* **TSS (Total Sum of Squares):**
+    * Total variance in the data.
+    * TSS=∑i=1n(yi−yˉ)2TSS = \sum_{i=1}^n (y_i - \bar{y})^2
+
+**Interpretation:**
+
+* R-squared ranges from 0 to 1.
+* A higher R-squared value indicates a better fit of the model to the data.
+* An R-squared of 1 means the model perfectly predicts the target variable.
+* An R-squared of 0 means the model does not explain any of the variability in the target variable.
+
+**Note:**
+
+* R-squared can be misleading in some cases, such as when dealing with small datasets or when the model is overly complex.
+* It's important to consider other metrics, such as adjusted R-squared and cross-validation, to evaluate model performance.
+
 
 
 
