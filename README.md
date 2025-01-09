@@ -134,11 +134,11 @@ $TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 **For our scikit-learn.py code here, Interpreting MSE and R²**  
 
 Suppose:
-MSE = 2500 (e.g., squared dollars)
-R² = 0.92
-This means:
-MSE: On average, the squared error in predicted house prices is 2500. The smaller the value, the better the model predicts house prices.
-R²: 92% of the variability in house prices is explained by the model, suggesting it is highly effective.
+MSE = 2500 (e.g., squared dollars)  
+R² = 0.92  
+**This means:**  
+- MSE: On average, the squared error in predicted house prices is 2500. The smaller the value, the better the model predicts house prices.
+- R²: 92% of the variability in house prices is explained by the model, suggesting it is highly effective.
 
 
 
