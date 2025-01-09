@@ -109,17 +109,13 @@ R-squared R² (Coefficient of Determination) explains how much of the variabilit
 $R^{2} = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squares (TSS)}}$
 
 **Where:**
+$SSR = \sum_{i=1}^{n} \left( \hat{y}_i - y_i \right)^2$  Residuals (unexplained variance by the model).
 
-* **SSR (Sum of Squared Residuals):** 
-    * Residuals (unexplained variance by the model).
-    * SSR=∑i=1n(yi−y^i)2SSR = \sum_{i=1}^n (y_i - \hat{y}_i)^2
-* **TSS (Total Sum of Squares):**
-    * Total variance in the data.
-    * TSS=∑i=1n(yi−yˉ)2TSS = \sum_{i=1}^n (y_i - \bar{y})^2
+$TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 
-**Interpretation:**
+**What It Means:**
 
-* R-squared ranges from 0 to 1.
+* $R^{2}$ ranges from 0 to 1.
 * A higher R-squared value indicates a better fit of the model to the data.
 * An R-squared of 1 means the model perfectly predicts the target variable.
 * An R-squared of 0 means the model does not explain any of the variability in the target variable.
