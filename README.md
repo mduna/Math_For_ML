@@ -111,7 +111,7 @@ $R^{2} = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squ
 
 **Where:** 
 
-$SSR = \sum_{i=1}^{n} \left( y_i - \hat{y}_i  \right)^2$  Residuals (unexplained variance by the model).
+$SSR = \sum_{i=1}^{n} \left( y_i - \hat{y}_i  \right)^{2}$  Residuals (unexplained variance by the model).
 
 $TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 
@@ -131,6 +131,14 @@ $TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 * R-squared can be misleading in some cases, such as when dealing with small datasets or when the model is overly complex.
 * It's important to consider other metrics, such as adjusted R-squared and cross-validation, to evaluate model performance.
 
+**For our scikit-learn.py code here, Interpreting MSE and R²**  
+
+Suppose:
+MSE = 2500 (e.g., squared dollars)
+R² = 0.92
+This means:
+MSE: On average, the squared error in predicted house prices is 2500. The smaller the value, the better the model predicts house prices.
+R²: 92% of the variability in house prices is explained by the model, suggesting it is highly effective.
 
 
 
