@@ -106,7 +106,7 @@ R-squared R² (Coefficient of Determination) explains how much of the variabilit
 
 **Formula**
 
-R²=1−Sum of Squared Residuals (SSR)Total Sum of Squares (TSS)R^2 = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squares (TSS)}}
+R^2 = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squares (TSS)}}
 
 **Where:**
 
