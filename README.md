@@ -108,9 +108,10 @@ R-squared R² (Coefficient of Determination) explains how much of the variabilit
 
 $R^{2} = 1 - \frac{\text{Sum of Squared Residuals (SSR)}}{\text{Total Sum of Squares (TSS)}}$
 
+
 **Where:** 
 
-$SSR = \sum_{i=1}^{n} \left( y_i - \hat{y}_i)  \right^2$  Residuals (unexplained variance by the model).
+$SSR = \sum_{i=1}^{n} \left( y_i - \hat{y}_i  \right)^2$  Residuals (unexplained variance by the model).
 
 $TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 
