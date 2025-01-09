@@ -133,7 +133,7 @@ $TSS = \sum_{i=1}^n (y_i - \bar{y})^{2}$  Total variance in the data
 
 **For our scikit-learn.py code here, Interpreting MSE and R²**  
 
-Suppose:
+**Suppose:**   
 MSE = 2500 (e.g., squared dollars)  
 R² = 0.92  
 **This means:**  
